@@ -1,6 +1,6 @@
 ---
 - name: testing with tower
-  hosts: server1
+  hosts: 172.31.17.5
   become: yes
   tasks:
   - name: useradd 
