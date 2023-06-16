@@ -1,6 +1,7 @@
 ---
 - name: testing with tower
   hosts: localhost
+  become: yes
   tasks:
   - name: useradd 
     user:
