@@ -1,0 +1,9 @@
+---
+- name: testing with tower
+  hosts: localhost
+  tasks:
+  - name: useradd 
+    user:
+      name: A1
+      state: present
+...
